@@ -1,0 +1,29 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Theoni Gigi",
+      "state": "APPROVED"
+    },
+    {
+      "id": 2,
+      "name": "Harry Thomson",
+      "state": "IN-CHECK"
+    },
+    {
+      "id": 3,
+      "name": "Ann-Katrin Loewe",
+      "state": "APPROVED"
+    },
+    {
+      "id": 4,
+      "name": "Helen Matiudaki",
+      "state": "ACTIVE"
+    },
+    {
+      "id": 5,
+      "name": "Tobias Moeller",
+      "state": "INACTIVE"
+    }
+  ]
+}
