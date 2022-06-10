@@ -6,7 +6,7 @@ import { EmployeeList } from "./components/employeeList";
 import axios from "axios";
 
 const initialEmployees: Employee[] = [];
-// const initialStateButtons: StateButton[] = [];
+const baseURL = "http://localhost:5000/employees";
 
 function App() {
   const [employees, setEmployees]: [
@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get<Employee[]>(`http://localhost:5000/employees`, {
+      .get<Employee[]>(`${baseURL}`, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -42,12 +42,10 @@ function App() {
     const updatedEmployees = employees.map((employee) => {
       if (employee === selectedEmployee) {
         const id = selectedEmployee.id;
-        axios
-          .patch(`http://localhost:5000/employees/${id}`, { state: text })
-          .then((response) => {
-            console.log("response.data", response.data);
-            return response.data;
-          });
+        axios.patch(`${baseURL}/${id}`, { state: text }).then((response) => {
+          console.log("response.data", response.data);
+          return response.data;
+        });
 
         return { ...employee, state: text };
       }

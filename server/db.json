@@ -3,12 +3,12 @@
     {
       "id": 1,
       "name": "Theoni Gigi",
-      "state": "APPROVED"
+      "state": "IN-CHECK"
     },
     {
       "id": 2,
       "name": "Harry Thomson",
-      "state": "IN-CHECK"
+      "state": "ADDED"
     },
     {
       "id": 3,
@@ -18,12 +18,12 @@
     {
       "id": 4,
       "name": "Helen Matiudaki",
-      "state": "ACTIVE"
+      "state": "APPROVED"
     },
     {
       "id": 5,
       "name": "Tobias Moeller",
-      "state": "INACTIVE"
+      "state": "ADDED"
     }
   ]
 }
