@@ -3,17 +3,17 @@
     {
       "id": 1,
       "name": "Theoni Gigi",
-      "state": "IN-CHECK"
+      "state": "ACTIVE"
     },
     {
       "id": 2,
       "name": "Harry Thomson",
-      "state": "ADDED"
+      "state": "APPROVED"
     },
     {
       "id": 3,
       "name": "Ann-Katrin Loewe",
-      "state": "APPROVED"
+      "state": "IN-CHECK"
     },
     {
       "id": 4,
@@ -23,7 +23,7 @@
     {
       "id": 5,
       "name": "Tobias Moeller",
-      "state": "ADDED"
+      "state": "ACTIVE"
     }
   ]
 }
